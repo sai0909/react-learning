@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './BuildControl.module.css'
 const BuildControl = (props) => {
-    console.log('buildcontrol',()=>props.disabled)
+    
     return(
         <div className={classes.BuildControl}>
             <div className={classes.Label}>{props.label}</div>
